@@ -1,18 +1,12 @@
 # Hacking Xiao-Dong Li's LSS Code
 
-```
-  ____       _           _____ _        _      _              
- |  _ \     | |         / ____| |      | |    | |             
- | |_) | ___| |_ __ _  | (___ | | _____| | ___| |_ ___  _ __  
- |  _ < / _ \ __/ _` |  \___ \| |/ / _ \ |/ _ \ __/ _ \| '_ \ 
- | |_) |  __/ || (_| |  ____) |   <  __/ |  __/ || (_) | | | |
- |____/ \___|\__\__,_| |_____/|_|\_\___|_|\___|\__\___/|_| |_|
-                                                              
-```
-
-This is a hacked version of the repo at
+This is a hacked version of the hacked version (https://github.com/flgomezc/HackingLSSCode) of the repo at
 [https://github.com/xiaodongli1986/LSS_Code](https://github.com/xiaodongli1986/LSS_Code)
 to calculate only the Beta-Skeleton of a given set of points.
+
+**-> It doesn't make a ".BSKinfo" file with the 'information of BSK (fmt: distance, redshift, length, mu)' because in this project it is not required.
+
+The following information was taken from https://github.com/flgomezc/HackingLSSCode:
 
 Original version requires the "ifort" compiler (Intel - Fortran compiler).
 This version can compile using "gfortran".
@@ -66,7 +60,7 @@ Example:
 	printinfo: Optional. True or False
 	numNNB: Mandatory. The number of neighbours to perform the search of the Beta-Neighbours.
 
-Xiao Dong Li suggets:	
+Xiao Dong Li suggests:	
 
 |beta   | numNNB |  Observations                           |
 |------:|-------:|-----------------------------------------|
