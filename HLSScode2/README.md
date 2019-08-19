@@ -3,6 +3,7 @@
 This is a hacked version of the hacked version (https://github.com/flgomezc/HackingLSSCode) of the repo at
 [https://github.com/xiaodongli1986/LSS_Code](https://github.com/xiaodongli1986/LSS_Code)
 to calculate only the Beta-Skeleton of a given set of points.
+
 **-> It doesn't make a ".BSKinfo" file with the 'information of BSK (fmt: distance, redshift, length, mu)' because in this project it is not required.**
 
 The following information was taken from https://github.com/flgomezc/HackingLSSCode:
