@@ -170,8 +170,8 @@ contains
 		endif
 
 		! make directory
-                dir_name = 'Skeleton'
-		cmdstr = 'mkdir -p'//trim(adjustl(dir_name))
+		dir_name = 'skeleton'
+		cmdstr = 'mkdir -p '//trim(adjustl(dir_name))
 		call system(cmdstr)
 
 		! names of files
@@ -263,8 +263,8 @@ contains
 
 		! information of BSK Connections		
 		print *, '       # of Connections: ', gb_numBSKConnect
-		!file_BSKinfo = trim(adjustl(dir_name))//'/'//trim(adjustl(outputfilename))
-		!file_BSKinfo = trim(adjustl(file_BSKinfo))//'.BSKinfo'
+		file_BSKinfo = trim(adjustl(dir_name))//'/'//trim(adjustl(outputfilename))
+		file_BSKinfo = trim(adjustl(file_BSKinfo))//'.BSKinfo'
 
 		!if(outputBSKinfo) then
 		!	write(*,'(A,A)'), '  *** information of BSK (fmt: distance, redshift, length, mu) wrote to: ', &
